@@ -1,0 +1,57 @@
+:root {
+  --primary-color: rgb(17, 86, 102) 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html {
+  height: 100vh;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  background-color: var(--primary-color);
+}
+
+h1 {
+  margin: .5rem;
+  text-align: center;
+}
+
+p {
+  margin: .5rem;
+  text-align: center;
+}
+
+.clock {
+  font-size: 3em;
+}
+
+.paused {
+  color: red;
+}
+
+.container {
+  height: 50%;
+  max-width: 640px;
+  margin: 50px auto;
+  background-color: #ffffffff;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.result {
+  display: flex;
+  width: 100%;
+  justify-content:space-around;
+}
+  
+input {
+  display: block;
+}
