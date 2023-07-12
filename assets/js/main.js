@@ -4,6 +4,7 @@ const buttonPause = document.querySelector('.pause');
 const buttonRestart = document.querySelector('.restart'); 
 
 let seconds = 0;
+let timer;
 
 // Formating Time
 function getTimeInSeconds(seconds) { 
@@ -20,7 +21,6 @@ function startTheTimer() {
     clock.innerHTML = getTimeInSeconds(seconds); 
 }, 1000); 
 }
-
 
 document.addEventListener('click', function(event) {
     const element = event.target;
@@ -45,10 +45,7 @@ document.addEventListener('click', function(event) {
 })
 
 
-// Using closure to take this variables in these functions
 
-let timer;
-// Using closure to take this variables in these functions
 
 
 
