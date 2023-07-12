@@ -37,7 +37,7 @@ p {
 }
 
 .paused {
-  color: red;
+  color: rgb(245, 90, 90);
 }
 
 .container {
